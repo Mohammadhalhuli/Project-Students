@@ -1,0 +1,97 @@
+table , th , tr ,td {
+    border: 1px solid green;
+}
+th,td{
+    padding: 10px 20px;
+}
+main a , td a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+form {
+    font-size: 16px;
+}
+
+
+main section div {
+    display: flex;
+    justify-content: center;
+    
+
+}
+main section h2 {
+    border-bottom: 1px solid black;
+}
+
+tr:nth-child(even){
+    background-color:  #04AA6D;
+}
+table th {
+    background-color: #04AA6D;
+}
+
+table tr img {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.photo {
+    border-right: 1px solid lightgray;
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+dt{
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+}
+dd{
+    position: relative;
+    
+    left: 30px;
+
+}
+.addtable  {
+    border: none;
+    padding: 10px 20px;
+    background-color: white;
+}
+strong{
+    font-size: 20px;
+    font-weight: 700;
+    color: bisque;
+    border: 1px solid #000;
+}
+/*.h1{
+    font-size: 20px;
+    font-weight:999 ;
+    border-bottom: #000 solid 7px;
+    text-transform: capitalize;
+}*/
+
+td a{
+    text-decoration: none;
+
+    font-size: 20px;
+    color: crimson;
+}
+section main h2{
+    color: aqua;
+    border-bottom: #000 solid 4px;
+    width: 77%;
+}
+.log{
+    margin-left: 95%;
+    text-decoration: none;
+    color: red;
+    font-size: 30px;
+    margin-top: -50px;
+}
+.hed{
+    padding-left: 30px;
+    
+}

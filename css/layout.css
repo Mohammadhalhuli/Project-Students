@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-size: 14px;
+}
+footer{
+    margin-top: 30px;
+}
+footer div{
+    left: 5px;
+     top: 15px;
+    position: relative; 
+}
+footer img {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 100px;
+    left: 5px
+}
+main {
+    position: relative;
+    overflow: auto;
+    width: 70%;
+    float: left;
+    background-color: white;
+    
+    left: 10px;
+}
+footer {
+    font-size: smaller;
+    width: 100%;
+    border-top: 7px solid black;
+    
+    background-color: rgb(158, 85, 85);
+    float: left;
+    
+}
+
+aside {
+    border: 7px solid black;
+   margin-bottom: 30px;
+    
+    width: 30%;
+    float: right;
+    
+  
+}
+aside h2{
+    margin: 0px 10px;
+    border-bottom: 7px solid black;
+    
+}
+aside p {
+    margin: 5px 21px;
+}
+h2 {
+    border-bottom: 1px solid black;
+    margin-right:  10% ;
+}
+
+
+header{
+    background-color: rgb(235, 243, 243);
+    border-bottom: 10px solid black;
+    
+}
+header .logo{
+    display: flex;
+    padding: 30px; 
+}
+header .logo img{
+    max-width: 250px;
+}
+header .logo .log{
+    margin-left: 1200px;
+    color: red;
+    border-radius: 25px;
+    font-size: 30px;
+    text-transform: none;
+    text-decoration: cadetblue;
+}
+
+header .logo .log{
+    padding-right: 150px;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 900;
+}
+header nav{
+    text-align: center;
+}
+header nav a{
+    padding-left:30px ;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+/*
+section{
+    margin-left: 80px;
+    display: flex;
+    margin-bottom: 30px;
+    border-bottom: 7px solid #000;
+    width: 100%;
+}
+section .h1{
+    font-size: 20px;
+    font-weight:999 ;
+    border-bottom: #000 solid 7px;
+    text-transform: capitalize;
+}
+section .log{
+    text-transform: capitalize;
+    font-size: 30px;
+    border-bottom: 7px solid black;
+}
+section form{
+    width: 50%;
+    align-items: center;
+}
+section aside{
+    margin-left: 150px;
+    border: 2px solid #000;
+    width: 20%;
+    height: 30%;
+}
+section aside h2{
+    border-bottom: 1px solid #000;
+    width: 87%;
+    margin-left: 28px;
+}
+section aside p{
+    margin-left: 30px;
+}
+
+footer{
+    margin-left: 30px;
+    display: flex;
+    background-color: rgb(235, 243, 243);
+    border-bottom: 10px solid black;
+}
+footer img{
+    border-radius: 25px;
+}
+footer p{
+    margin-left: 30px;
+    font-size: 30px;
+}
+.table{
+    width:  60%;
+}
+ .tab {
+    width: 100%;
+    
+  }
+  
+   .tab td,  .tab th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+   .tab tr:nth-child(even){background-color: #f2f2f2;}
+  
+   .tab tr:hover {background-color: #ddd;}
+  
+   .tab th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+   .tab tr a{
+    text-decoration: none;
+
+    font-size: 20px;
+    color: crimson;
+  }
+   #add{
+    text-decoration: none;
+    font-size: 20px;
+    color: #04AA6D;
+  }
+section form a{
+            border-radius: 25px;
+            background-color: #04AA6D;
+            padding: 10px;
+            text-decoration: none;
+            font-size: 20px;
+}
+section main a{
+    border-radius: 25px;
+    background-color: #04AA6D;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+   
+}
+section form .in{
+    border-radius: 10px;
+    background-color: #04AA6D;
+    padding: 10px;
+    font-size: 20px;
+}
+section #imag{
+    border-right: #04AA6D solid 4px;
+    padding-right: 25px;
+    
+}
+dl{
+    margin-left: 25px;
+}
+*/
